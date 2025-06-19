@@ -3,7 +3,7 @@
 import { countryStore } from '../stores/countryStore.js';
 import * as countriesApi from '../api/countriesApi.js';
 
-export async function findCountry(name) {
+export const findCountry = async (name) => {
     if (!name || name.trim() === '') {
         countryStore.set({
             country: null,

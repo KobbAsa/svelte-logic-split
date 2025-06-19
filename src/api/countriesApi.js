@@ -2,7 +2,7 @@
 
 const API_BASE_URL = 'https://restcountries.com/v3.1';
 
-export async function searchCountryByName(name) {
+export const searchCountryByName = async (name) => {
     console.log(`API: Sending request for "${name}"...`);
 
     const response = await fetch(`${API_BASE_URL}/name/${name}`);

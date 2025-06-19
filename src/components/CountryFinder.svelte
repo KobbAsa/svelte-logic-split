@@ -5,7 +5,7 @@
     // default country
     let searchTerm = 'Ukraine';
 
-    function handleSubmit() {
+    const handleSubmit = () => {
         findCountry(searchTerm);
     }
 
