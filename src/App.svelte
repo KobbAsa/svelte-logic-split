@@ -1,7 +1,9 @@
 <script>
+import CountryFinder from "./components/CountryFinder.svelte";
 </script>
 
 <main>
+    <CountryFinder/>
 </main>
 
 <style>
